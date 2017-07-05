@@ -1,0 +1,12 @@
+.header{
+	
+}
+.nav{
+	float: right;
+}
+.header-li{
+	float: left;
+	list-style: none;
+	text-decoration:underline;
+	margin-left: 20px;
+}
