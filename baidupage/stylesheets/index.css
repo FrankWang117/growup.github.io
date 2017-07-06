@@ -1,7 +1,8 @@
-.header{
-	
+#header{
+	height: 70px;
 }
-.nav{
+#nav{
+	/*display: inline-block;*/
 	float: right;
 }
 .header-li{
@@ -9,4 +10,51 @@
 	list-style: none;
 	text-decoration:underline;
 	margin-left: 20px;
+
+}
+.header-li a{
+	color: #000;
+}
+/*logo区域*/
+	/*logo图片*/
+#div-pic{
+	text-align: center;
+	margin-top: 50px;
+}
+#div-pic img{
+	/*height: 50%;*/
+	width: 370px;
+}
+	/*end logo图片*/
+	/*搜索框*/
+#div-search{
+	text-align: center;
+}
+#div-search input{
+	width: 500px;
+	height: 28px;
+}
+#div-search input:hover{
+
+}
+#div-search button{
+	width: 78px;
+	height: 34px;
+	background-color: lightblue;
+	border-width: 0px;
+}
+	/*end 搜索框*/
+/*end logo 区域*/
+/*底部文字等*/
+#div-qr{
+
+}
+.qr-pic{
+	text-align: center;
+}
+.qr-text{
+	text-align: center;
+}
+.footer-text{
+	text-align: center;
 }
